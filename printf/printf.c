@@ -67,7 +67,6 @@ void print(const char* format, ...) {
 					write(1, "used  unsupported symbol\n", 26);
 					va_end(list);
 					abort();
-					break;
 			}
 		}
 	}
